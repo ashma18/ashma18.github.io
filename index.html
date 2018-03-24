@@ -4,16 +4,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <title>Ash Ma Portfolio</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Ash Ma Portfolio</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-custom fixed-top">
             <div class="container-fluid">  
                 <a class="navbar-brand" href="#"><img class=logo src="images/MAASH-logo.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -22,19 +23,19 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="index.html#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link" href="index.html#about">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="index.html#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experience</a>
+                            <a class="nav-link" href="index.html#experience">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Find Me</a>
+                            <a class="nav-link" href="index.html#findme">Find Me</a>
                         </li>
                     </ul>
                 </div>
@@ -42,80 +43,91 @@
         </nav>
     <main>
         <div id="home">
-            <div class="landing-text">
-                <h1>ASH MA</h1>
+            <div class="container-fluid padding">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                            <img class=heading src="images/MAASH-logo.png"></a>
+                        <h1 class="display-1">Ash Ma</h1>
+                    </div>
+                </div>    
             </div>
         </div>
-        <div class="about">
+        <div id="about">
             <div class="padding">
                 <div class="container">
                     <div class ="col-sm-6 text-left">
-                        <h2>About me text</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sed nibh in feugiat. Integer accumsan consectetur pellentesque. Maecenas posuere congue dui, eget fermentum sapien cursus ac. Ut pretium vel nisl ut venenatis. Nulla metus urna, imperdiet in rhoncus pharetra, hendrerit eu sem. Sed pulvinar metus non maximus consectetur. Maecenas vel dictum quam. Etiam ac enim id arcu malesuada posuere sit amet ultrices arcu. Aliquam tempor ac ipsum at pharetra. Morbi sed odio vitae risus euismod auctor. Suspendisse auctor purus leo. Sed maximus mi ac faucibus consequat. In non dui imperdiet, tempus metus vel, lacinia eros. Sed ultrices sapien at justo placerat rhoncus. Proin quis massa non lacus molestie sagittis.
-
-                            </p>
+                        <h2>About Me</h2>
+                        <p class="lead"> Full stack web developer with product management experience. Passionate about designing great products for the end user.
+                        </p>
                     </div>   
                 </div>
             </div>
         </div>
         <!--Skills and Proficiencies-->
-        <div class="skills">
-            <div class="padding">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 sm-6 xs-12">
-                            <h4>Product Managment</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sed nibh in feugiat.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 sm-6 xs-12">
-                            <h4>Front End</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sed nibh in feugiat.</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 sm-6 xs-12">
-                            <h4>Back Endt</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sed nibh in feugiat.</p>
-                        </div>
-
+        <div id="skills">
+            <div class="card-deck">
+                    <div class="card">
+                    <img class="card-img-top" src="images/comp_process.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Product Management</h4>
+                        <p class="card-text"></p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img class="card-img-top" src="images/frontend.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Front-end Development</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img class="card-img-top" src="images/backend.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Back-end Development</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <!--Experience or Work-->
+        <div id="experience">
+            <div class="card-group">
+                    <div class="card">
+                    <img class="card-img-top" src="images/comp_process.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Equifax</h4>
+                        <p class="card-text">Managed digital partnerships, led 3 API integrations, feature prioritisation</p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img class="card-img-top" src="images/comp_process.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img class="card-img-top" src="images/comp_process.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Experience or Work-->
-        <div class="experience">
-            <div class="padding">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 sm-6 xs-12">
-                                <h4>Product Managment</h4>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sed nibh in feugiat.</p>
-                            </div>
-                            <div class="col-lg-4 col-md-4 sm-6 xs-12">
-                                <h4>Front End</h4>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sed nibh in feugiat.</p>
-                            </div>
-                            <div class="col-lg-4 col-md-4 sm-6 xs-12">
-                                <h4>Back Endt</h4>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sed nibh in feugiat.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>    
-        </div>
-        <div id="fixed">
-        </div>   
     </main>
     <footer class="container-fluid text-center">
+    <div id="findme">
         <div class="row">
             <div class="col-sm-6">
              <h3>Find us</h3>   
              <a href="#" class= "fa fa-github"></a> 
              <a href="#" class= "fa fa-linkedin-square"></a>    
             </div>
-            <div class="col-sm-6">
-                
+            <div class="col-sm-6">  
             </div>
-        </div>        
+        </div>   
+    </div>
     </footer>
         
 

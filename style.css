@@ -6,7 +6,7 @@ html, body {
 .bg-custom {
     font-size: 20px;
     background-color: #2C2C33;
-    padding: 0px;
+    padding: 0px 10px 0px 10px;
 }
 
 #home {
@@ -14,27 +14,37 @@ html, body {
     width: 100vw;
     height: 100vh;
 }
-.landing-text {
-  
-    text-align: center;
-    vertical-align: middle;
+.display-1 {
+    color: #fff;
     
-} 
-.about {
-    height: 100vh;
-    width: 100vw; 
-    background-color: #96919E;  
+}
+#imgskills{
+    height:60%;
+    width:60%;
+    padding: 10px;
+   
+}
+
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .logo {
     height: 15%;
     width: 15%;
 }
-.skills{
+.heading{
+    height: 30%;
+    width: 40%;
+}
+#skills{
     height: 100vh;
     width: 100vw;
 }
-.experience {
+#experience {
     height: 100vh;
     width: 100vw;
 }
@@ -43,11 +53,19 @@ font-size: 500%;
 font-weight: 700;
 text-align: center;
 }
-
-.padding {
-    padding:80px 0;
+.card-img-top {
+    height:40%;
+    width:40%;
+}
+.card {
+    padding:20px;
 }
 
+#about{
+padding: 50px 0px 0px 0px;
+height: 95vh;
+width: 100vw; 
+}
 
 footer {
     width:100%;
