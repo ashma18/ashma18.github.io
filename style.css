@@ -9,7 +9,9 @@ html, body {
     font-family: 'Inconsolata', monospace;
     padding: 100px 0px 0px 0px;
     }
-
+.diplay-2 {
+    color: #fdfdfe;
+    font-size: 20px;
 }
 .display-3 {
     color: #f3f3f4;
@@ -46,14 +48,13 @@ font-weight: bold;
     padding: 20px 0px 0px 0px;  
 }
 
-#skills {
-    padding: 20px 0px 0px 0px;
-}
+
 #home {
     background-color: #2C2C33;
 }
 #skills {
     background-color: #f3f3f4;
+    padding: 20px 0px 0px 0px;
 }
 
 
