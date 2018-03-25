@@ -43,9 +43,9 @@ font-weight: bold;
 .padding {
     padding: 10px 10px 0px 10px;
 }
-#home, #about, #work{
+#home, #about, #work, #skills{
     width: 100vw;
-    height:100vh;
+    min-height:100vh;
     padding: 20px 0px 0px 0px;  
 }
 
