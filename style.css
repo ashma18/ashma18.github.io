@@ -1,98 +1,105 @@
 html, body {
     height: 100%;
     width: 100%;
+
+}
+#about {
+    text-align: center;
+}
+#about, #work {
+    background-color: #f3f3f4;
+}
+.display-1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+    padding: 100px 0px 0px 0px;
+    }
+.display-4 {
+    font-family: 'Inconsolata', monospace;
+    padding: 0;
+    color: #fdfdfe;
 }
 
+.lead {
+    font-family: 'Montserrat', sans-serif;    
+}
+h1, h2, h3, h4 {
+font-family: 'Inconsolata', monospace;
+font-weight: bold;
+}
 .bg-custom {
     font-size: 20px;
+    font-family: 'Inconsolata', monospace;
     background-color: #2C2C33;
     padding: 0px 10px 0px 10px;
 }
-
+.padding {
+    padding: 25px 0px 0px 0px;
+}
+#home, #about, #skills, #work {
+    width: 100vw;
+    height:100vh;
+    padding: 25px 0px 0px 0px;  
+}
 #home {
     background-color: #2C2C33;
-    width: 100vw;
-    height: 100vh;
 }
-.display-1 {
-    color: #fff;
-    
-}
+
 #imgskills{
     height:60%;
     width:60%;
-    padding: 10px;
-   
+    padding: 10px;  
 }
 
+.card-deck {
+    padding: 10px;
+}
+
+.sectionhead {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
 .card-img-top {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height:100px;
+    width:100px;
+    padding: 10px;
+}
+.card-title {
+text-align: center;
+}
+.card {
+    padding:10px;
+    border: none;
+}
+.lead {
+    text-align: center;
+    padding: 10px;
+}
+.img-stack{
+    height: 50%;
     width: 50%;
 }
 
-.logo {
-    height: 15%;
-    width: 15%;
-}
-.heading{
-    height: 30%;
-    width: 40%;
-}
-#skills{
-    height: 100vh;
-    width: 100vw;
-}
-#experience {
-    height: 100vh;
-    width: 100vw;
-}
-h1 {
-font-size: 500%;
-font-weight: 700;
-text-align: center;
-}
-.card-img-top {
-    height:40%;
-    width:40%;
-}
-.card {
-    padding:20px;
-}
-
-#about{
-padding: 50px 0px 0px 0px;
-height: 95vh;
-width: 100vw; 
-}
-
-footer {
-    width:100%;
-    background-color:#2C2C33;
-    padding: 0% 5% 5% 5%;
-    color: #fff;
-
-}
-
-.fa {
-    padding: 15px;
-    font-size:25px;
-    color: #fff;
-}
-.fa:hover {
-    color: #d5d5d5;
-    text-decoration: none;
-}
 
 
-@media (max-width 768px) {
-    .h1 {
-        font-size: 300%;
-    }
 
-    .fa {
-        font-size: 20px;
-        padding: 10px;
-    }
-}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
