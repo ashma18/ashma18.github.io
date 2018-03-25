@@ -1,11 +1,8 @@
 html, body {
     height: 100%;
     width: 100%;
+}
 
-}
-#about {
-    text-align: center;
-}
 #about, #work {
     background-color: #f3f3f4;
 }
@@ -21,7 +18,7 @@ html, body {
     color: #fdfdfe;
 }
 
-.lead {
+p {
     font-family: 'Montserrat', sans-serif;    
 }
 h1, h2, h3, h4 {
@@ -32,12 +29,12 @@ font-weight: bold;
     font-size: 20px;
     font-family: 'Inconsolata', monospace;
     background-color: #2C2C33;
-    padding: 0px 10px 0px 10px;
+    padding: 5px 10px 5px 10px;
 }
 .padding {
-    padding: 25px 0px 0px 0px;
+    padding: 10px 10px 0px 10px;
 }
-#home, #about, #skills, #work {
+#home, #about, #skills, #work, #connect {
     width: 100vw;
     height:100vh;
     padding: 25px 0px 0px 0px;  
@@ -46,46 +43,35 @@ font-weight: bold;
     background-color: #2C2C33;
 }
 
-#imgskills{
-    height:60%;
-    width:60%;
-    padding: 10px;  
+.fa-user-circle {
+    color: #494850;
+}
+.fa-file-code{
+    color:#494850;
+}
+.fa-database {
+    color: #494850;
+}
+.fa-user-circle, .fa-file-code, .fa-database {
+    font-size: 3em;
+    margin: 1rem;
 }
 
-.card-deck {
-    padding: 10px;
+.fa-linkedin {
+    color: #4875B4;
 }
 
-.sectionhead {
-    text-align: center;
-    padding: 50px 0px 0px 0px;
+.fa-medium {
+color: #00ab6c;
 }
-.card-img-top {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height:100px;
-    width:100px;
-    padding: 10px;
-}
-.card-title {
-text-align: center;
-}
-.card {
-    padding:10px;
-    border: none;
-}
-.lead {
-    text-align: center;
-    padding: 10px;
-}
-.img-stack{
-    height: 50%;
-    width: 50%;
+.fa-github {
+    color: #333;
 }
 
-
-
+.fa-linkedin, .fa-medium, .fa-github {
+    font-size: 50px;
+    margin: 20px;
+}
 
 
 
