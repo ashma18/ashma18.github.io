@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.display-1 {
+    text-align: center;
+    color: #fdfdfe;
+    font-family: 'Inconsolata', monospace;
+    padding: 100px 0px 0px 0px;
+    }
+.display-3 {
+    color: #f3f3f4;
+    font-family: 'Inconsolata', monospace;
+
+}
+.display-4 {
+    font-family: 'Inconsolata', monospace;
+    padding: 30px 0px 0px 0px;
+    color: #494850;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 20px; 
+}
+h1, h2, h3, h4 {
+font-family: 'Inconsolata', monospace;
+font-weight: bold;
+}
+.bg-custom {
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    background-color: #2C2C33;
+    padding: 5px;
+}
+.padding {
+    padding: 10px 10px 0px 10px;
+}
+#home, #about, #work{
+    width: 100vw;
+    height:100vh;
+    padding: 20px 0px 0px 5px;  
+}
+
+#skills {
+    padding: 20px 0px 0px 5px;
+}
+#home {
+    background-color: #2C2C33;
+}
+#skills {
+    background-color: #f3f3f4;
+}
+
+
+.fa-user-circle {
+    color: #494850;
+}
+.fa-file-code{
+    color:#494850;
+}
+.fa-database {
+    color: #494850;
+}
+.fa-user-circle, .fa-file-code, .fa-database {
+    font-size: 3em;
+    margin: 1rem;
+}
+
+.connect a {
+    padding: 2rem;
+    font-size: 3.5rem;
+}
+.fa-linkedin {
+    color: #4875B4;
+}
+
+.fa-medium {
+color: #00ab6c;
+}
+.fa-github {
+    color: #f5f5f5;
+}
+
+.fa-linkedin:hover, .fa-medium:hover, .fa-github:hover {
+    color: #d5d5d5;
+}
+
+footer {
+    background-color:#2C2C33;
+    color:#fdfdfe;
+    padding: 5px;
+}
+
+.sitemap {
+color: #fdfdfe;
+}
+.sitemap:hover{
+color: #d5d5d5;
+text-decoration: none;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

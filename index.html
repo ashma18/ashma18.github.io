@@ -1,55 +1,154 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset ="UTF-8">
-        <title>Ash Ma's Resume</title>
-        <style>
-            body {
-                font-family: sans-serif;
-                color: grey;
-            }
-            header {
-                text-align: center;        
-            }
-            main, footer {
-                width: 70%;
-                margin: 1em auto;   
-            }
-            footer {
-                color: green ;
-                font-weight: bold;
-            }
-            .employment-period{
-                font-weight: bold;
-                color: red;        
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Ash Ma's Resume &hearts;</h1>
-        </header>
-        <main>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus atque sequi aliquid harum voluptatem, dolore quidem! Quidem ducimus alias blanditiis mollitia doloribus eligendi corrupti dignissimos numquam ex, perspiciatis porro explicabo.</p>
-        <h2>Work History</h2>
-        <ul>
-            <li>
-            <p class= 'employment-period'>2016 - 2017 Equifax - Product Manager</p>
-            <p>Managed product roadmap with third party partners</p>
-            </li>
-            <li>
-                <p class= 'employment-period'>2015 - 2016 Equifax - Product Analyst</p>
-                <p>Mergers and Acquisitions and new initiatvies</p>
-            </li>
-            <li>
-                <p class= 'employment-period'> 2014 - 2015 KPMG - Risk Consultant</p>
-                <p>Risk analysis in the Financial Services Industry</p>
-            </li>
-        </ul>
-        </main>
-        <footer>
-            <small>&copy; 2018 Ashley Ma</small>
-        </footer>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ash Ma Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-custom fixed-top">
+        <div class="container-fluid">  
+            <a class="navbar-brand" href="#">MAASH</a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>    
+            </button>  
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#work">Work</a>
+                    </li>
+            
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+    <div id="home">
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-1">Ash Ma</h1>
+                    <h2 class="display-3">Web Developer</h2>
+                    <h2 class="display-3">Product Manager</h2>
+                </div>
+            </div>    
+        </div>
+    </div>
+<!--About-->
+<div id="about">
+    <div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">About Me</h1>    
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <p>Full stack web developer with a background in product management. Passionate about designing great products for the end user.</p>
+            </div>
+        </div>
+    </div>       
+</div>  
+
+<!--Skills and Proficiencies-->
+    <div id="skills">
+    <div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Skills</h1>
+        </div>
+    </div>    
+    </div>
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-user-circle"></i>
+                    <h3>Product Management</h3>
+                    <p>Prototyping, user research, feature prioritisation, project management, wireframing</p>    
+                    <h4>Tools</h4>
+                    <p>Trello, Github, Slack</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-file-code"></i>
+                    <h3>Front-end Development</h3>
+                    <p>HTML, CSS, Bootstrap</p>    
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-database"></i>
+                    <h3>Back-end Development</h3>
+                    <p>Ruby on Rails</p>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Work-->
+    <div id="work">
+        <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Work</h1>    
+            </div>
+        </div>
+        </div>
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h3>Equifax</h3>
+                    <p>User research, API integrations, Feature prioritisation, Partner management</p>
+                </div>
+            </div>
+        </div>       
+    </div>  
+                
+</main>
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+    <div class="col-12">
+            <h2>Connect</h2>   
+    </div>
+    <div class="col-12 connect padding">
+        <a href="https://www.linkedin.com/in/ash-ma-21b81255/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://medium.com/@ashma91"><i class="fab fa-medium"></i></a>   
+        <a href="https://github.com/ashma18/"><i class="fab fa-github"></i></a>    
+    </div>
+    <div class="col-12">
+        <hr class="light">
+    </div>
+    <div class="col-6">
+        <h5>&copy; MAASH </h5>
+    </div>     
+    <div class="col-6">
+        <h5><a class="sitemap" href="sitemap.html">Sitemap</a></h5>
+    </div>
+</div>
+</div>
+</footer>
+
+
         
-    </body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  </body>
 </html>
