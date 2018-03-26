@@ -49,7 +49,6 @@ font-weight: bold;
     padding: 20px 0px 0px 0px;  
 }
 
-
 #home {
     background-color: #2C2C33;
 }
@@ -59,18 +58,10 @@ font-weight: bold;
 }
 
 
-.fa-user-circle {
-    color: #494850;
-}
-.fa-file-code{
-    color:#494850;
-}
-.fa-database {
-    color: #494850;
-}
 .fa-user-circle, .fa-file-code, .fa-database {
     font-size: 3em;
     margin: 1rem;
+    color: #494850;
 }
 
 .connect a {
@@ -105,22 +96,5 @@ color: #fdfdfe;
 .sitemap:hover{
 color: #d5d5d5;
 text-decoration: none;
-}
-
-.list {
-    padding: 50px 0px 0px 0px;
-    font-family: 'Inconsolata', monospace;
-    font-size: 20px;
-    color: #2c2c33;
-}
-
-.li-site {
- text-decoration: none;
- color: #2c2c33;
-}
-
-.li-site:hover {
-    color: #d5d5d5;
-    text-decoration: none;
 }
 
