@@ -17,6 +17,7 @@ html, body {
 .display-3 {
     color: #f3f3f4;
     font-family: 'Inconsolata', monospace;
+    font-size: 4rem;
 
 }
 .display-4 {
@@ -41,7 +42,7 @@ font-weight: bold;
     padding: 5px;
 }
 .padding {
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
 }
 #home, #about, #work, #skills{
     width: 100vw;
@@ -64,9 +65,11 @@ font-weight: bold;
     color: #494850;
 }
 
-.connect a {
+.connect {
     padding: 2rem;
     font-size: 3.5rem;
+    display:flex;
+    justify-content: space-around;
 }
 .fa-linkedin {
     color: #4875B4;
@@ -97,4 +100,6 @@ color: #fdfdfe;
 color: #d5d5d5;
 text-decoration: none;
 }
+
+
 
